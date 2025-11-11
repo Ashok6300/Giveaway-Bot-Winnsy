@@ -1,0 +1,32 @@
+{
+  "name": "winnsy-giveaway-bot",
+  "version": "1.0.0",
+  "description": "A professional Discord giveaway bot with advanced features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "giveaway",
+    "slash-commands"
+  ],
+  "author": "Winnsy Team",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.2.0",
+    "canvas": "^2.11.2",
+    "discord-api-types": "^0.37.61",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
